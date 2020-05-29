@@ -1,0 +1,5 @@
+const greeting: string = "Hello World";
+
+console.log(greeting);
+
+// deno run hello.ts
