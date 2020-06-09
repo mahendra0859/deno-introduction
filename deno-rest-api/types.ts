@@ -9,8 +9,8 @@ export interface Params {
 }
 export interface ReqResHandler {
   request?: any;
-  response: any;
-  params?: Params;
+  response?: any;
+  params?: any | Params;
 }
 export interface ReqBody {
   type: string;
