@@ -21,11 +21,11 @@
 $ deno upgrade
 $ deno install --allow-read --allow-run --allow-write -f --unstable https://deno.land/x/denon/denon.ts.
 $ export PATH="/Users/<your account>/.deno/bin:$PATH".
-\$ denon start.
+$ denon start.
 ```
 
 #### To run the REST API in local
 
 ```
-\$ cd deno-rest-api/ && deno run --allow-net server.ts
+$ cd deno-rest-api/ && deno run --allow-net server.ts
 ```
